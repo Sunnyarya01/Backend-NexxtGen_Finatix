@@ -11,7 +11,7 @@ import com.demo.model.Person;
 import com.demo.service.PersonService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @RequestMapping("/person")
 public class PersonController {
 
