@@ -8,7 +8,7 @@ public class AppController {
 
 	@GetMapping("/test")
 	public String testing() {
-		return "Hey I am working";
+		return "Hey I am updated";
 	}
 	
 }
